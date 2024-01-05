@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+body, html{
+    height: 100%;
+}
+body{
+    background: #def3fd;
+    overflow-x: hidden;
+}
+
+.row {
+    display: flex;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins-SemiBold', sans-serif;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p, a, ul, li{
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+a {
+    text-decoration: none !important;
+    transition: all 0.5s;
+}
+.carousel-item img {
+    width: 100%;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+    font-size: 15px;
+    font-family: 'Poppins-Light';
+    line-height: 40px;
+}
+.codinglab img {
+    width: 12%;
+    padding: 0px 10px;
+    margin: 0px 0px -2px;
+}
+
+.heading {
+    width: 530px;
+    padding: 0px 100px;
+}
+
+.codinglab p {
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 6px 0px;
+    color: #302d2d;
+}
+
+.codinglab {
+    background: #fff;
+    margin: 0px 2px;
+    padding: 10px 30px 20px;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px #0000001c;
+}
+
+.codinglab h3 {
+    font-size: 19px;
+    padding: 0px 0px 16px;
+}
+
+section {
+    padding: 30px 0px;
+}
+
+.heading h1 {
+    font-size: 105px;
+    padding: 0px 0px 0px 80px;
+    /* border-left: 25px solid #1672f3; */
+    /* border-radius: 11px; */
+    position: relative;
+}
+.heading h1::before {
+    content: "";
+    height: 100%;
+    border-left: 20px solid #1672f3;
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    border-radius: 10px;
+}
+span {
+    color: #1672f3;
+}
+
+.codinglab p:hover {
+    background: #1672f3;
+    padding: 12px 0px;
+    border-radius: 5px;
+    color: #fff;
+}
